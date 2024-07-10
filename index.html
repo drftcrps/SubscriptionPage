@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .main {
+            width: 450px;
+            background-color: #f8f9fa;
+            border: 3px solid;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sub {
+            background-color: #d1d1d1;
+            padding: 20px;
+            margin-top: 10px;
+            margin-right: 20px;
+        }
+        .sub h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .sub h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .sub p {
+            font-size: 14px;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        .sub input[type="text"],
+        .sub input[type="email"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ced4da;
+            margin-right: 10px; 
+        }
+        .sub input[type="checkbox"] {
+            margin-right: 5px;
+            accent-color: #6c757d;
+        }
+        .sub label {
+            font-size: 14px;
+            color: #333333;
+        }
+        .sub button {
+            width: 99%; 
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            font-size: 14px;
+            margin-top: 10px;
+            margin-right: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>CSS Newsletter</h1>
+        <div class="sub">
+            <h2>Subscribe to our Newsletter</h2>
+            <p>Lorem ipsum text about why you should subscribe to our newsletter blabla. Lorem ipsum text about why you should subscribe to our newsletter blabla.</p>
+            <form class="margin">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email address" required>
+                <div>
+                    <input type="checkbox" id="newsletter">
+                    <label for="newsletter">Daily Newsletter</label>
+                </div>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
